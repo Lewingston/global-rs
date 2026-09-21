@@ -1,4 +1,4 @@
-
+jklk
 # global-rs
 
 This crate provides macros for portable storing global static objects on platforms with threading support and without thrading support (e.g. wasm-unknown-unknown).
@@ -9,7 +9,7 @@ Add the crate to the dependencies in the `cargo.toml`.
 
 ```toml
 [dependencies]
-global = { git = "git@github.com:Lewingston/global-rs.git" }
+global = { git = "https://github.com/Lewingston/global-rs", branch = "main" }
 ```
 
 Use the `global::shared` macro to declare the name and the type of the variable.
