@@ -1,4 +1,3 @@
-jklk
 # global-rs
 
 This crate provides macros for portable storing global static objects on platforms with threading support and without thrading support (e.g. wasm-unknown-unknown).
